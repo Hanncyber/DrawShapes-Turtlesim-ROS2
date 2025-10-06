@@ -1,0 +1,25 @@
+# ROS / colcon
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+.Python
+venv/
+.env
+.envrc
+
+# Editors / IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Others
+.DS_Store
+*.egg-info
