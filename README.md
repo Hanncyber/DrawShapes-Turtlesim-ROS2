@@ -51,11 +51,17 @@ ros2 run draw_shapes shape_node
 Enter commands when prompted:
 
 Command	Description
+
 heart	Draw a heart shape
+
 star	Draw a star shape
+
 flower	Draw a flower shape
+
 clear	Reset the screen
+
 stop	Stop the node
+
 Node
 
 shape_node: Main node that subscribes to user input and publishes commands to /turtle_commander.
@@ -65,12 +71,19 @@ Topics
 /turtle_commander: Receives commands for drawing shapes and clearing/stopping.
 
 Directory Structure
+
 DrawShapes-Turtlesim-ROS2/
+
 ├── src/
+
 │   └── draw_shapes/
+
 │       └── shape_node.py
+
 ├── package.xml
+
 ├── setup.py
+
 └── README.md
 
 Contributing
