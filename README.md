@@ -82,7 +82,3 @@ Create a branch: git checkout -b feature/<feature-name>
 Commit your changes: git commit -m "Add <feature-name>"
 
 Push and open a pull request
-
-License
-
-This project is licensed under the MIT License.
